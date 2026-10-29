@@ -1,0 +1,23 @@
+VULLCO ASSOCIATIONS v3 - KURZSETUP
+
+Wenn v2 schon in Supabase läuft:
+1. Supabase -> SQL Editor -> New query
+2. supabase/update-v3.sql KOMPLETT ausführen
+3. Neue Lobby erstellen
+
+Join:
+- zuerst Name
+- danach Lobby-Code
+- KEIN PIN
+
+Host-Lobby:
+- Code ist absichtlich geblurrt
+- Button "Lobby-Code kopieren" kopiert ihn trotzdem
+- keine Teilnehmergrenze
+- Lobby kann gesperrt/geöffnet werden
+
+Spiel:
+- Lobby-Code wird nicht angezeigt
+- Lobby-Code steckt auch nicht in der Browser-URL
+- pro Runde eine Antwort pro Spieler
+- mehrere lokale Browser-Tabs funktionieren getrennt

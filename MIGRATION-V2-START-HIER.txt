@@ -1,0 +1,7 @@
+Du hast v1 bereits mit Supabase verbunden.
+
+BITTE ALS ERSTES:
+Supabase -> SQL Editor -> New query -> Inhalt aus supabase/update-v2.sql einfügen -> Run.
+
+Danach npm run dev neu starten und eine neue Lobby anlegen.
+Alte Test-Lobbys aus v1 sind nicht mit den neuen PIN-/Token-Funktionen ausgestattet.

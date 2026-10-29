@@ -1,0 +1,16 @@
+VULLCO ASSOCIATIONS v6 - TWITCH CHAT SETUP
+
+1) Twitch Developer Console -> Applications -> Register Your Application.
+2) OAuth Redirect URLs eintragen:
+   http://localhost:3000/api/twitch/callback
+   UND fuer Vercel:
+   https://DEINE-DOMAIN.vercel.app/api/twitch/callback
+3) Client ID und Client Secret holen.
+4) .env.local ergaenzen:
+   TWITCH_CLIENT_ID=...
+   TWITCH_CLIENT_SECRET=...
+5) npm run dev neu starten.
+6) Website -> Spielen -> Mit Twitch-Chat -> Mit Twitch verbinden.
+
+Die App fordert nur user:read:chat an. Der Client Secret bleibt serverseitig.
+Keine neue Supabase-Migration fuer v6 noetig.

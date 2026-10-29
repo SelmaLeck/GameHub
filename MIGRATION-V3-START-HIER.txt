@@ -1,0 +1,11 @@
+DU HAST v2 BEREITS IN SUPABASE EINGERICHTET?
+
+Dann in Supabase -> SQL Editor -> New query gehen und den KOMPLETTEN Inhalt von:
+
+supabase/update-v3.sql
+
+ausführen.
+
+Danach eine NEUE Lobby erstellen.
+Der zusätzliche PIN ist damit weg. Gäste brauchen nur Name + Lobby-Code.
+Der Lobby-Code ist auf dem Host-Screen standardmäßig geblurrt und per Button kopierbar.

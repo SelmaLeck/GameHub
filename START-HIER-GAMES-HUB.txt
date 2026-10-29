@@ -1,0 +1,31 @@
+VULLCO GAMES HUB – START HIER
+
+Diese Version basiert auf deiner aktuellen Assoziationsspiel-Version.
+Beibehalten wurden u.a. deine 132 Kategorien, privater Modus, Twitch-Assoziationsmodus,
+aktuelles Design/CSS, Footer, Skip und die vorhandene Supabase-Struktur.
+
+NEU:
+- Startseite = schlichter Vullco Games Hub
+- Twitch direkt im Hub verbinden; dieselbe Session gilt für alle Twitch-Games
+- Tabu: 2 Begriffe zur Auswahl, verbotene Wörter, Live-Chat rechts, Top 3, Live-Leaderboard
+- Wer bin ich?: Streamer bekommt Figur/Person, Chat rät, Top 3, Live-Leaderboard
+- Montagsmaler: Canvas, Farben, Pinsel, Radierer, Undo/Clear, Live-Chat, Top 3, Live-Leaderboard
+- Runden bei den neuen Games frei 1–130 wählbar
+
+WICHTIG FÜR DEIN BESTEHENDES SUPABASE-PROJEKT:
+Einmal supabase/update-games-hub.sql im Supabase SQL Editor ausführen.
+Das setzt das private Rundenlimit sauber auf 130 und enthält den Skip-Fix.
+
+ENV:
+Deine vorhandene .env.local NICHT auf GitHub hochladen.
+Sie braucht weiterhin:
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+TWITCH_CLIENT_ID=...
+TWITCH_CLIENT_SECRET=...
+
+TWITCH REDIRECT URL:
+Lokal:  http://localhost:3000/api/twitch/callback
+Vercel: https://DEINE-DOMAIN.vercel.app/api/twitch/callback
+
+Die .env.local ist absichtlich NICHT in dieser ZIP enthalten.
