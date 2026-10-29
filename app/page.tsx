@@ -37,8 +37,8 @@ export default function HomePage() {
           <div className="hub-brand-side">
             <Brand />
             <div>
-              <h1>VULLCO GAMES</h1>
-              <p>Stream-Games für Twitch, Freunde und Chat.</p>
+              <h1>V//GAMES</h1>
+              <p>Stream-Games für den Twitchchat</p>
             </div>
           </div>
           <HubTwitchStatus />

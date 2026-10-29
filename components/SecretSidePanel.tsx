@@ -5,7 +5,7 @@ export function SecretSidePanel({ children }: { children: ReactNode }) {
     <aside className="secret-side">
       <div className="facecam-placeholder">
         <strong>FACECAM</strong>
-        <span>OBS-Cam hier drüber legen</span>
+        <span>-Cam hier drüber legen</span>
       </div>
       <div className="streamer-only">
         <span className="streamer-only-label">STREAMER ONLY</span>

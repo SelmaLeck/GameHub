@@ -3,8 +3,8 @@ import SiteFooter from "@/components/SiteFooter";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Vullco Games",
-  description: "Stream-Games für Twitch, Chat und Freundesgruppen",
+  title: "V//Games",
+  description: "Stream-Games für den Twitchchat",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

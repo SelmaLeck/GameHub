@@ -11,7 +11,7 @@ export default function SiteFooter() {
       <span className="footer-divider">•</span>
 
       <span className="footer-inspired">
-        Inspired by Papaplatte & Team
+        
       </span>
 
       <span className="footer-divider">•</span>

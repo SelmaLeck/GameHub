@@ -15,7 +15,7 @@ export function RoundSetup({
 }) {
   return (
     <section className="card setup-card">
-      <span className="eyebrow">TWITCH GAME</span>
+      <span className="eyebrow"></span>
       <h1>{title}</h1>
       <p>{description}</p>
       <label className="setup-field">
