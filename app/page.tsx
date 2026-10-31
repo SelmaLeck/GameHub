@@ -39,6 +39,13 @@ const games = [
   href: "/games/emotes",
   tag: "TWITCH",
 },
+{
+  name: "v//bot",
+  description: "Verwalte den Twitchbot!",
+  href: "https://vllcbot.up.railway.app/",
+  tag: "TWITCH",
+},
+
 ];
 
 export default function HomePage() {
