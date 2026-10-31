@@ -27,6 +27,18 @@ const games = [
     href: "/games/drawing",
     tag: "TWITCH",
   },
+  {
+  name: "Randomizer",
+  description: "Minecraft Randomizer",
+  href: "https://minecraft-randomizer-wheat.vercel.app/",
+  tag: "TWITCH + TIKTOK",
+},
+{
+  name: "Emote-Guesser",
+  description: "Bringe deinem Twitch-Chat 7tv Emotes bei!",
+  href: "/games/emotes",
+  tag: "TWITCH",
+},
 ];
 
 export default function HomePage() {

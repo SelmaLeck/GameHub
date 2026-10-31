@@ -24,7 +24,7 @@ export default function DrawingPage() {
   const [word, setWord] = useState("");
   const [hits, setHits] = useState<RoundHit[]>([]);
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
-  const [color, setColor] = useState("#ffffff");
+  const [color, setColor] = useState("#111827");
   const [brush, setBrush] = useState(8);
   const [eraser, setEraser] = useState(false);
   const deckRef = useRef<string[]>([]);
@@ -82,7 +82,7 @@ export default function DrawingPage() {
     if (track) pushUndo();
     ctx.save();
     ctx.globalCompositeOperation = "source-over";
-    ctx.fillStyle = "#0b1220";
+    ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.restore();
   }
