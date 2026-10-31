@@ -234,7 +234,7 @@ export default function EmotesPage() {
   // Optional:
   // Wenn du IMMER ein bestimmtes Vullco-7TV-Set benutzen willst,
   // kannst du NEXT_PUBLIC_7TV_SET_ID in .env.local / Vercel setzen.
- const fixedSetId = "01JM89DPWTX7442SQ4TPDHJ6E6";
+ const fixedSetId = "01JMD4HWA562E1FMF4849708TQ";
 
   useEffect(() => {
     if (!twitch.user) return;
